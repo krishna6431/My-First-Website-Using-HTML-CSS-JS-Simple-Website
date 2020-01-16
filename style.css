@@ -1,0 +1,151 @@
+
+/* THIS WEBDESIGN IS CREATED BY KRISHNA */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+
+/* yrr gazab ka grediant hain waah krishna ji waah  */
+header{
+background: linear-gradient(135deg,rgb(74,13,143) 0%, rgba(250,42,143) 100%);
+height: 100%;
+
+}
+
+ul{
+
+float: right;
+list-style-type: none;
+margin-top: 25px;
+
+}
+
+ul li{
+
+    display: inline-block;
+    margin-right: 40px;
+
+
+
+}
+
+ul li a{
+text-decoration: none;
+color: rgba(255,255,255,0.5);
+padding: 5px 0.2px;
+transition: 0.5% ease;
+
+}
+
+ul li a:hover{
+
+    color: rgba(255,255,255,0.75);
+}
+
+ul li a.active{
+
+    border-bottom: 2px solid #cd99d4;
+    color: #ffffff;
+
+
+}
+ul li a.download{
+    border: 1px solid #ffffff;
+    padding: 2px 20px;
+    border-radius: 3px;
+    color:#ffffff
+}
+
+ul li a.download:hover{
+    background-color: white;
+    color: purple;
+}
+
+.logo img{
+
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 8px;
+    height: 70px;
+    width: 100px;
+    border: rgba(255,255,255,0.75);
+    border-width: 2px; 
+    border-radius: 2px;
+}
+
+.main{
+max-width: 1500px;
+margin:auto;
+
+
+}
+.title{
+
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    animation: up 1s infinite;
+
+}
+/* this is a animation krishna ji tum to ek dm great nikle yaar */
+@keyframes up {
+    0% {
+    Transform:translateY(0px);
+    Opacity:0;
+    
+    }
+    100% {
+    Transform:translateY(-5px);
+    }
+    }
+
+
+
+
+.title p{
+ color:#ffb8f6;
+ font-size: 18px;
+ text-align: center;
+ padding-top: 25px;
+
+
+}
+
+.image1{
+
+    padding-top: 350px;
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 800px;
+    width: 600px;
+
+}
+
+.image1 img{
+
+    height: 300px;
+    width: 600px;
+    border: #ffffff;
+    padding-top: 50px;
+    
+}
+
+#animation h1:nth-child(1){
+    animation-delay: .1s;
+}
